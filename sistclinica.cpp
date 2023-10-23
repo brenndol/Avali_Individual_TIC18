@@ -266,7 +266,7 @@ int main() {
                 int posicao = localizaCrm (listaMedicos, auxCrm);
 
                 if (posicao < 0) {
-                    Medico *medico = new Medico (auxNomeMed, auxCrm, auxEspec);
+                    Medico *medico = new Medico (auxCrm, auxNomeMed, auxEspec);
                     listaMedicos.push_back(medico);
                 }
 
